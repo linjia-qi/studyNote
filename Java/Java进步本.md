@@ -50,11 +50,11 @@
 
 虚拟机会把Java语言翻译成操作系统能看得懂的语言。
 
-![image-20210923091350952](D:\studyNote\java\github_studyNote_repo\Java\assets\image-20210923091350952-1705572959988-2.png)
+![image-20210923091350952](assets\image-20210923091350952-1705572959988-2.png)
 
 ## 1.4 JRE和JDK
 
-![image-20210923091544110](D:\studyNote\java\github_studyNote_repo\Java\assets\image-20210923091544110.png)
+![image-20210923091544110](assets\image-20210923091544110.png)
 
 JVM（Java Virtual Machine），Java虚拟机
 
@@ -62,7 +62,7 @@ JRE（Java Runtime Environment），Java运行环境，包含了JVM和Java的核
 
 JDK（Java Development Kit）称为Java开发工具，**包含了JRE和开发工具**
 
-![image](D:\studyNote\java\github_studyNote_repo\Java\assets\Snipaste_2023-12-07_22-43-32.png)
+![image](assets\Snipaste_2023-12-07_22-43-32.png)
 
 总结：我们只需安装JDK即可，它包含了java的运行环境和虚拟机。
 
@@ -247,7 +247,7 @@ public class VariableDemo2{
 
 #### 4.2.1 不同进制在代码中的表现形式
 
-   ![进制](D:\studyNote\java\github_studyNote_repo\Java\assets\进制.png)
+   ![进制](assets\进制.png)
 
 * 问：计算机为什么使用二进制
 
@@ -257,19 +257,19 @@ public class VariableDemo2{
 
 #### 4.2.2 任意进制转十进制
 
-![进制转换](D:\studyNote\java\github_studyNote_repo\Java\assets\进制转换.png)
+![进制转换](assets\进制转换.png)
 
 #### 4.2.3 二进制转十进制快速转换法：8421快速转换法。
 
-![8421](D:\studyNote\java\github_studyNote_repo\Java\assets\8421.png)
+![8421](assets\8421.png)
 
 #### 4.2.4 任意进制转十进制：除基取余法。
 
-![进制转换](D:\studyNote\java\github_studyNote_repo\Java\assets\除基.png)
+![进制转换](assets\除基.png)
 
 #### 4.2.5 进制转换总结
 
-![总结](D:\studyNote\java\github_studyNote_repo\Java\assets\总结.png)
+![总结](assets\总结.png)
 
 ### 4.3 计算机存储规则：ASCII码表。
 
@@ -277,11 +277,11 @@ public class VariableDemo2{
 
 * 对于字母'a'，先查找码表，找到对应数字97，再转换成二进制存储。
 
-![](D:\studyNote\java\github_studyNote_repo\Java\assets\ascii.png)
+![](assets\ascii.png)
 
 * 中文怎么存储？——编码规则的发布。 先查找码表找到对应的数字，再转换成二进制存储在计算机中。
 
-![](D:\studyNote\java\github_studyNote_repo\Java\assets\中文.png)
+![](assets\中文.png)
 
 
 
@@ -289,29 +289,29 @@ public class VariableDemo2{
 
 * ——灰度图 用0~255表示灰度数据
 
-![](D:\studyNote\java\github_studyNote_repo\Java\assets\灰度图.png)
+![](assets\灰度图.png)
 
 * 彩色图——计算机中的三原色：红绿蓝
 
-![](D:\studyNote\java\github_studyNote_repo\Java\assets\三原色.png)图为计算机的像素点放大后的效果。
+![](assets\三原色.png)图为计算机的像素点放大后的效果。
 
 * **三原色总结**：
 
-![](D:\studyNote\java\github_studyNote_repo\Java\assets\三原色小结.png)
+![](assets\三原色小结.png)
 
 #### 4.3.3 声音数据：
 
 * 对声波进行采样，每一个点都有对应的数字。
 
-![](D:\studyNote\java\github_studyNote_repo\Java\assets\声音数据.png)
+![](assets\声音数据.png)
 
 举例：氪金：采样点密集，声音质量高；不氪金：采样点稀疏 ，音质差。
 
-![](D:\studyNote\java\github_studyNote_repo\Java\assets\声音.png)
+![](assets\声音.png)
 
 ### 4.4 总结：在计算机中，任意数据都是以二进制形式存储的。
 
-![](D:\studyNote\java\github_studyNote_repo\Java\assets\总结图.png)
+![](assets\总结图.png)
 
 ## 5. 数据类型
 
@@ -420,7 +420,7 @@ public class VariableDemo3{
 
 #### 总结
 
-![](D:\studyNote\java\github_studyNote_repo\Java\assets\数据类型.png)
+![](assets\数据类型.png)
 
 
 
@@ -531,7 +531,7 @@ public class ScannerDemo1{
 
 #### 1.1.3 运算符六种类型
 
-<img src="D:\studyNote\java\github_studyNote_repo\Java\assets\运算符.png" style="zoom:50%;" />
+<img src="assets\运算符.png" style="zoom:50%;" />
 
 ## 1.2 算术运算符
 
@@ -624,7 +624,7 @@ System.out.println(hundreds);
 
 #### 1.3.3 存储层面：在数据前面补零，如图所示。
 
-<img src="D:\studyNote\java\github_studyNote_repo\Java\assets\隐式转换.png" style="zoom:50%;" />
+<img src="assets\隐式转换.png" style="zoom:50%;" />
 
 
 
@@ -779,7 +779,7 @@ public class OperatorDemo2 {
 
  2. 强制转换是通过去掉前面的字节来实现的，如图。int 类型的300转换为byte类型变成44；而int 类型的200转换为byte类型变成-56。
 
-    <img src="D:\studyNote\java\github_studyNote_repo\Java\assets\强制转换.png" style="zoom:50%;" />
+    <img src="assets\强制转换.png" style="zoom:50%;" />
 
     
 
@@ -1275,17 +1275,17 @@ System.out.println(max);
 
 ### 1. 原码和反码 
 
-一个字节（8个bit）为单位，最左边的一位是符号位；反码：为了解决原码不能计算负数的问题而出现。<img src="D:\studyNote\java\github_studyNote_repo\Java\assets\原码反码.png" style="zoom: 33%;" />
+一个字节（8个bit）为单位，最左边的一位是符号位；反码：为了解决原码不能计算负数的问题而出现。<img src="assets\原码反码.png" style="zoom: 33%;" />
 
 ### 2. 补码：
 
 * 为了解决反码中0有两种表现形式、出现了两次的问题。（导致每次计算跨0时，结果有1的误差）而出现。
 
-<img src="D:\studyNote\java\github_studyNote_repo\Java\assets\反码.png" style="zoom:40%;" />
+<img src="assets\反码.png" style="zoom:40%;" />
 
 * 补码：反码错开一位（去掉了反码中0的负数表现形式，只保留了0的一种表现形式）；负数的补码 = 负数的反码 + 1；
 
-<img src="D:\studyNote\java\github_studyNote_repo\Java\assets\补码.png" style="zoom:40%;" />
+<img src="assets\补码.png" style="zoom:40%;" />
 
 ### 3. 注意：正数的原码、反码、补码都是相同的。
 
@@ -1300,28 +1300,28 @@ System.out.println(max);
    反码＋1得补码，1000000多了出来没有对应的结果，所以**把10000000规定为-128**。
 
    注意：-128只有补码形式，没有对应的原码和反码形式。
- <img src="D:\studyNote\java\github_studyNote_repo\Java\assets\-128.png" style="zoom:40%;" />
+ <img src="assets\-128.png" style="zoom:40%;" />
 
 
 
 
 ## 2.2 字节层面理解运算符
 
-   <img src="D:\studyNote\java\github_studyNote_repo\Java\assets\与或非.png" style="zoom:50%;" />
+   <img src="assets\与或非.png" style="zoom:50%;" />
 
 ### 1. 两个数字“逻辑与”操作
 
-   <img src="D:\studyNote\java\github_studyNote_repo\Java\assets\数字与.png" style="zoom:33%;" />
+   <img src="assets\数字与.png" style="zoom:33%;" />
 
 ### 2. 两个数字“逻辑或”操作
 
-   <img src="D:\studyNote\java\github_studyNote_repo\Java\assets\数字或.png" style="zoom:50%;" />
+   <img src="assets\数字或.png" style="zoom:50%;" />
 
 ### 3. 左移运算符（左移1位相当于×2，左移2位相当于×4）
 
    a << 2  代表将左移两位，低位补0即可。
 
-   <img src="D:\studyNote\java\github_studyNote_repo\Java\assets\左移.png" style="zoom:40%;" />
+   <img src="assets\左移.png" style="zoom:40%;" />
 
    
 
@@ -1331,13 +1331,13 @@ System.out.println(max);
 
    如果原来是正数，高位补0；如果原来是负数，高位补1。
 
-   <img src="D:\studyNote\java\github_studyNote_repo\Java\assets\右移.png" style="zoom:40%;" />
+   <img src="assets\右移.png" style="zoom:40%;" />
 
 ### 5. 无符号右移
 
    向右移动，高位补0。
 
-   <img src="D:\studyNote\java\github_studyNote_repo\Java\assets\无符号.png" style="zoom:50%;" />
+   <img src="assets\无符号.png" style="zoom:50%;" />
 
 # Day04 流程控制语句
 
@@ -1357,7 +1357,7 @@ System.out.println(max);
 
 顺序结构执行流程图：
 
-![1545615769372](D:\studyNote\java\github_studyNote_repo\Java\assets\1545615769372.png)
+![1545615769372](assets\1545615769372.png)
 
 ## 2 判断语句：if语句
 
@@ -1380,7 +1380,7 @@ if (关系表达式) {
 
 ④继续执行后面的语句内容
 
-![1545616039363](D:\studyNote\java\github_studyNote_repo\Java\assets\1545616039363.png)
+![1545616039363](assets\1545616039363.png)
 
 示例：
 
@@ -1476,7 +1476,7 @@ if (关系表达式) {
 
 ④继续执行后面的语句内容
 
-![1545616221283](D:\studyNote\java\github_studyNote_repo\Java\assets\1545616221283.png)
+![1545616221283](assets\1545616221283.png)
 
 示例：
 
@@ -1593,7 +1593,7 @@ else {
 
 ⑤如果没有任何关系表达式为true，就执行语句体n+1。
 
-![1545616667104](D:\studyNote\java\github_studyNote_repo\Java\assets\1545616667104.png)
+![1545616667104](assets\1545616667104.png)
 
 #### 练习1：考试奖励
 
